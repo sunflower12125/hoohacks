@@ -1,0 +1,34 @@
+INSERT INTO restaurant VALUES (1, 'Ristorante Il Porcino');
+
+INSERT INTO menu_item VALUES (1, 'Shrimp Scampi', 'Shrimp sauteed in olive oil served with pasta.', 20, '{"shrimp", "shellfish", "butter", "olive oil", "garlic", "white wine"}', 1);
+INSERT INTO menu_item VALUES (2, 'Pesto Gnocchi', 'Potato gnocchi with pesto.', 16, '{"nuts", "olive oil", "potato", "garlic", "cheese"}', 1);
+INSERT INTO menu_item VALUES (3, 'Lobster Spaghetti', 'Spaghetti with lobster.', 24, '{"lobster", "shellfish", "onion", "celery", "garlic", "basil", "cream", "spaghetti", "butter"}', 1);
+INSERT INTO menu_item VALUES (4, 'Garlic Bread', 'Cheesy garlic butter spread on toasted bread.', 8, '{"garlic", "bread", "butter", "cheese"}', 1);
+
+
+INSERT INTO restaurant VALUES (2, 'The Red Dragon');
+
+INSERT INTO menu_item VALUES (5, 'Beef with Brocolli', 'Stir-fried beef and vegetable medley.', 14, '{"beef"}', 1);
+INSERT INTO menu_item VALUES (6, 'Shrimp Fried Rice', 'You''re telling me a shrimp fried this rice?', 8, '{"shrimp", "shellfish", "gluten", "eggs", "garlic"}', 1);
+INSERT INTO menu_item VALUES (7, 'Kung Pao Chicken', 'Salty, sweet, and spicy stir-fried chicken', 12, '{"chicken", "garlic", "nuts"}', 1);
+INSERT INTO menu_item VALUES (8, 'Mapo Tofu', 'Numbing tofu dish served with ground pork', 8, '{"garlic", "pork", "bean", "tofu"}', 1);
+
+Count Dracula - garlic, low; pork, high [id: 11540]
+Joe Koh - nuts, high; olive oil, low [id: 11539]
+Taylor Swift - none [id: 11538]
+
+- interoperability - could work with external health providers
+- extensibility - same dataset could be used for other applications - vegan, pregnant, etc
+
+- mental health - [drake study]
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4146781/
+
+"One fifth of the population report adverse reactions to food. Reasons for these symptoms are heterogeneous, varying from food allergy, food intolerance, irritable bowel syndrome to somatoform or other mental disorders...
+"Adults and children suffering from food allergy show impaired quality of life and a higher level of stress and anxiety. Pavlovian conditioning of adverse reactions plays an important role in maintaining symptoms. "
+
+https://pubmed.ncbi.nlm.nih.gov/30408639/
+"Participants with FA, 2 or more, 3 or more, and 4 or more allergens were more common in the depression group than in the control group (odds ratio [OR] = 1.64, 1.75, 2.02, and 2.27, respectively; p < 0.001). "
+
+One in 13 children have a food allergy, 40% of children with food allergies are allergic to more than one food -> hard to track as a parent.
+
+-- both an acute problem with chronic thinking about it
